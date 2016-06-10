@@ -26,6 +26,9 @@
          format is UMTS|LTE|... -->
     <string translatable="false" name="config_radio_access_family">LTE|CDMA|EVDO|GSM|WCDMA</string>
 
+    <!-- Enable Hardware key flag -->
+    <bool name="config_hwKeysPref">true</bool>
+
     <!-- Do not translate. Defines the slots for the right-hand side icons.  That is to say, the
          icons in the status bar that are not notifications. -->
     <string-array name="config_statusBarIcons">
